@@ -10,3 +10,38 @@ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
 @import '@fortawesome/fontawesome-free/scss/solid';
 @import '@fortawesome/fontawesome-free/scss/regular';
 @import '@fortawesome/fontawesome-free/scss/v4-shims';
+
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  color:rgb(24, 24, 24);
+}
+
+a {
+  color:rgb(24, 24, 24);
+}
+
+body {
+  background-color: rgb(250, 249, 249);
+}
+
+.container {
+  padding-top: 16px;
+}
+
+article {
+  padding-bottom: 16px;
+}
+
+.fa.fa-pencil-square-o:before {
+  content: "\f044";
+  font-size: 26px;
+}
+
+::before {
+  font-size: 26px;
+}
+
+textarea.form-control {
+    height: 300px;
+}
