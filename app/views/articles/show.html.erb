@@ -1,17 +1,17 @@
 <div class='container'>
- <h2 class="border-bottom my-2 pb-1">
-  <%= @article.title %>
- </h2>
- <div class="border-bottom py-1">
-  <%= link_to edit_article_path(@article) do %>
-    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-  <% end %>
-  <%= link_to article_path(@article), method: :delete, data: { confirm: "Are you sure?"} do %>
-    <i class="fa fa-trash"></i>
-  <% end %>
- </div>
- <article class="my-1">
-  <%= @article.content %>
- </article>
+  <h2 class="border-bottom my-2 pb-1">
+    <%= @article.title %>
+  </h2>
+  <div class="border-bottom py-1">
+    <%= link_to edit_article_path(@article) do %>
+      <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+    <% end %>
+    <%= link_to article_path(@article), method: :delete, data: { confirm: "Are you sure?"} do %>
+      <i class="fa fa-trash"></i>
+    <% end %>
+  </div>
+  <article class="my-1">
+    <%= @article.content %>
+  </article>
 </div>
 
