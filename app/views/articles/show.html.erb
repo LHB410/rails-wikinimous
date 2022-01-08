@@ -1,0 +1,11 @@
+<div class='container'>
+ <h2 class="border-bottom">
+  <%= @article.title %>
+ </h2>
+ <%= link_to edit_article_path(@article) do %>
+  <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+ <% end %>
+ <article>
+  <%= @article.content %>
+ </article>
+</div>

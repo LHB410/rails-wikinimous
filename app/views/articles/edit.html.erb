@@ -1,0 +1,7 @@
+<div class>
+  <%= simple_form_for(@article) do |f| %>
+    <%= f.input :title %>
+    <%= f.input :content, class: "ace_editor ace-solarized-light"%>
+    <%= f.button :submit, 'Update', class: "btn-primary"%>
+  <% end %>
+</div>
